@@ -1,0 +1,85 @@
+.search_panel{
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);
+    width: 100%;
+    height: 190px;
+    display: flex;
+    padding: 50px;
+}
+
+.select-control-wrapper{
+    margin: 0 15px 0 15px;
+}
+
+.datepicker-control-wrapper{
+    margin: 0 15px 0 15px;
+}
+
+.btn-search-wrapper{
+    align-self: center;
+    margin: 12px 15px 0 15px;
+}
+
+.domestic-section{
+    padding: 35px 70px;
+}
+
+.domestic-section__intro-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2d2c2c;
+}
+
+.domestic-section__intro-content{
+    font-style: italic;
+    font-size: 24px;
+    color: #929191;
+    margin: 50px 0 70px 0;
+}
+
+.festival-section{
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.festival-section__background-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/images/cta.jpg);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.27;
+    position: absolute;
+}
+
+.festival-section__content-wrapper{
+    background-color: #ffff;
+    display: block;
+    position: relative;
+    top: 19%;
+    left: 8%;
+    width: 83%;
+    height: 65%;
+    padding: 60px;
+}
+
+.slide-item{
+    height: 687px ;
+    color: #ffff ;
+    line-height: 160px ;
+    text-align: center ;
+    background-size: cover;
+}
+
+.slide-item_1{
+    background-image: url(../../../public/images/home_slider.jpg) !important;
+}
+
+.slide-item_2{
+    background-position: center;
+    background-image: url(../../../public/images/hero-bg.jpg) !important;
+}
